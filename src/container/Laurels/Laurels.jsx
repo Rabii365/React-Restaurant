@@ -6,7 +6,7 @@ import "./Laurels.css";
 
 const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
   <div className="app__laurels_awards-card">
-    <img src={imgUrl} alt="awards" />
+    <img src={imgUrl} alt="awards" loading="lazy" />
     <div className="app__laurels_awards-card_content">
       <p className="p__cormorant" style={{ color: "#DCCA87" }}>
         {title}
@@ -30,7 +30,7 @@ const Laurels = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.laurels} alt="laurels_img" />
+      <img src={images.laurels} alt="laurels_img" loading="lazy" />
     </div>
   </div>
 );

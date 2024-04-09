@@ -50,7 +50,7 @@ const Gallery = () => {
               key={`gallery_image-${index + 1}`}
             >
               <a href="https://www.instagram.com/" target="_blank">
-                <img src={image} alt="Instagram Image" />
+                <img src={image} alt="Instagram Image" loading="lazy" />
               </a>
               <BsInstagram className="gallery__image-icon" />
             </div>

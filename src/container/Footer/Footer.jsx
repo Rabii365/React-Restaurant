@@ -18,7 +18,7 @@ const Footer = () => (
         <p className="p__opensans">+1 212-555-1230</p>
       </div>
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="footer restaurant logo" />
+        <img src={images.gericht} alt="footer restaurant logo" loading="lazy" />
         <p className="p__opensans">
           "The best way to find yourself is to lose yourself in the service of
           others"
@@ -26,6 +26,7 @@ const Footer = () => (
         <img
           src={images.spoon}
           alt="spoon image"
+          loading="lazy"
           className="spoon__img"
           style={{ marginTop: "15" }}
         />
